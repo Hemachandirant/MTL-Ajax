@@ -169,7 +169,7 @@
 
         <main class="body-wrapper">
           <div class="content-wrapper right-main-containr">
-            <h2 class="page-head">Summary</h2>
+            <h2 class="page-head">Summary Generator</h2>
             <div class="main-data-hold">
               <div class="app-main-wrapper">
                 <div class="inn-main-hold">
@@ -435,8 +435,7 @@
         $("#divSummary").hide();
       });
 
-
-    function uploadFile() {  
+      function uploadFile() {  
     var fileInput = document.getElementById("pdfFile");  
     var file = fileInput.files[0];  
     document.getElementById("fileName").innerText = file.name;  
@@ -465,9 +464,8 @@
         error: function () {  
             console.log("Upload error!");  
         },  
-    });  
-} 
-      
+    });
+      }
 
       function readURL(input) {
         if (input.files && input.files[0]) {
